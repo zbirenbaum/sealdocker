@@ -30,7 +30,9 @@ docker build . --tag imglab
 # Returning User
 5: to reopen the container run:
 docker start -a -i `docker ps -q -l`
+or:
+./openprogram.sh
 
 # Open the GUI:
-1. Run `./sealbuild` to build the program
+1. Run `./sealbuild` to build the program (only need to do this the first time)
 2. Run `./run/imglab` to open the GUI
